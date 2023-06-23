@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.770765ca.css",
+    "main.js": "/static/js/main.9cb90900.js",
+    "static/media/poster.pdf": "/static/media/poster.c317c3735fd67a9a1847.pdf",
+    "static/media/leila_3.png": "/static/media/leila_3.176d59a48b329a6d6918.png",
+    "static/media/wendelle.jpg": "/static/media/wendelle.b33f2de608294f672f7d.jpg",
+    "static/media/wilson.jpg": "/static/media/wilson.350c6af61b424babc81e.jpg",
+    "static/media/portfolio5.png": "/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/graph3.png": "/static/media/graph3.ba30a75262f00dbc0dde.png",
+    "static/media/petter.jpg": "/static/media/petter.af1be723feaf437d6a87.jpg",
+    "static/media/graph4.png": "/static/media/graph4.2012145dfd8ef0f9a5ff.png",
+    "static/media/portfolio2.jpg": "/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/graph2.png": "/static/media/graph2.7fe158fd5e1dd933a925.png",
+    "static/media/graph1.png": "/static/media/graph1.f6a4bdc2dcc650996dac.png",
+    "static/media/Logo.jpg": "/static/media/Logo.b5b440140d84456a6303.jpg",
+    "index.html": "/index.html",
+    "main.770765ca.css.map": "/static/css/main.770765ca.css.map",
+    "main.9cb90900.js.map": "/static/js/main.9cb90900.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.770765ca.css",
+    "static/js/main.9cb90900.js"
+  ]
+}
