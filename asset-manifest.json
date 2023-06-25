@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dilemma/static/css/main.770765ca.css",
-    "main.js": "/dilemma/static/js/main.57a560ba.js",
+    "main.css": "/dilemma/static/css/main.b2aa5dc5.css",
+    "main.js": "/dilemma/static/js/main.4610f691.js",
     "static/media/poster.pdf": "/dilemma/static/media/poster.c317c3735fd67a9a1847.pdf",
     "static/media/leila_3.png": "/dilemma/static/media/leila_3.176d59a48b329a6d6918.png",
     "static/media/wendelle.jpg": "/dilemma/static/media/wendelle.b33f2de608294f672f7d.jpg",
@@ -15,15 +15,17 @@
     "static/media/portfolio1.jpg": "/dilemma/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
     "static/media/portfolio3.jpg": "/dilemma/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "/dilemma/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/image-ml.png": "/dilemma/static/media/image-ml.19b18749e2bf511a13aa.png",
     "static/media/graph2.png": "/dilemma/static/media/graph2.7fe158fd5e1dd933a925.png",
+    "static/media/image-r.png": "/dilemma/static/media/image-r.4efd69f2b4ee8e578420.png",
     "static/media/graph1.png": "/dilemma/static/media/graph1.f6a4bdc2dcc650996dac.png",
     "static/media/Logo.jpg": "/dilemma/static/media/Logo.b5b440140d84456a6303.jpg",
     "index.html": "/dilemma/index.html",
-    "main.770765ca.css.map": "/dilemma/static/css/main.770765ca.css.map",
-    "main.57a560ba.js.map": "/dilemma/static/js/main.57a560ba.js.map"
+    "main.b2aa5dc5.css.map": "/dilemma/static/css/main.b2aa5dc5.css.map",
+    "main.4610f691.js.map": "/dilemma/static/js/main.4610f691.js.map"
   },
   "entrypoints": [
-    "static/css/main.770765ca.css",
-    "static/js/main.57a560ba.js"
+    "static/css/main.b2aa5dc5.css",
+    "static/js/main.4610f691.js"
   ]
 }
