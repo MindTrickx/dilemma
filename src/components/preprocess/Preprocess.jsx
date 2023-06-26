@@ -83,9 +83,7 @@ const Preprocess = () => {
           data.map(({id, image, title, content, github, demo}) => {
             return (
               <article key={id} className="portfolio__item">
-                <div className="portfolio__item-image">
-                  <img src={image} alt={title} />
-                </div>
+                
                 <h3>{title}</h3>
                 <p className='exploration__content'>{content}</p>
                 

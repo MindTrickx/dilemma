@@ -21,12 +21,7 @@ const Footer = () => {
         <li><a href="#team">Team</a></li>
       </ul>
 
-      <div className='footer__socials'>
-        <a href="https://facebook.com"><FaFacebook/></a>
-        <a href="https://instagram.com"><FiInstagram/></a>
-        <a href="https://twitter.com"><FiTwitter/></a>
-        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><TbBrandAmongUs/></a>
-      </div>
+     
       
       <div className="footer__copyright">
         <small>"It is the powerless and the helpless who most need our love and protection, not the powerful"</small>

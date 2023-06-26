@@ -43,9 +43,9 @@ const Modeling = () => {
             <img src={GRAPH1} alt="regression" />
           </div>
           <h3>Regression Analysis on the Number of Fatalities and the Frequency of Misinformation Tweets</h3>
-          <p>Linear regression was used to find whether there is a correlation between the number of drug war fatalities and the amount of misinformation tweets. The x-axis represents the number of drug war fatalites in which the data was obtained from 'The Armed Conflict Location & Event Data Project' (ACLED). The y-axis represents the number of misinformation tweets regarding Leila De Lima corresponding to the amount of fatalities.</p>
+          <p>Regression Analysis was used as the statistical model to determine the association between the number of PH drug war fatalities and the frequency of misinformation tweets. The predictor variable will be the number of fatalities from the public data set of The Armed Conflict Location & Event Data Project' (ACLED and the number of tweets is the outcome.</p>
           <br />
-          <p>The trend of the data points is estimated by the red line and it represents the relationship between the number of fatalities and the amount of misinformation tweets. If the amount of misinformation tweets increases with the amount of fatalities, then we would expect a slanted line. However, the regressions analysis suggests a flat line which implicates a weak correlation between the amount of fatalities and the amount of misinformation tweets.</p>
+          <p>The analysis showed that the R-squared is 0.001 and a p-value of 0.765 indicating that the number of fatalities during the PH drug war is <span style={{color: "#4db5ff"}}>not significantly associated</span> with the frequency of tweets regarding De Lima’s drug-related accusations. Thus, the findings failed to reject the null hypothesis.</p>
           <div className="portfolio__item-cta">
             <a href={GRAPH1} className="btn" target="_blank">Full Screen</a>
             <a href={GRAPH1} download className="btn btn-primary">Download</a>
@@ -59,14 +59,14 @@ const Modeling = () => {
           <h3>Event Detection Model for the Frequency of Misinformation Tweets regarding De Lima</h3>
           <p>Time-series analysis was used in order to find time periods with peak number of misinformation tweets. The x-axis represents the time periods while the y-axis represents the amount of misinformation tweets corresponding to that time period. The red 'x' marks represents the peaks of the graph which means that there is a significant amount of misinformation tweets for that time period.</p>
           <br></br>
-          <p>The find_peaks function from scipy was used in order to find the peaks with the parameter distance=4 so that the peaks would be sufficiently spaced out. The function found four time periods with peaks in the amount of minsinformation tweets:</p>
+          <p>The dataset of 153 misinformation tweets was used as input for the model. The find_peaks function from scipy was used in order to find the peaks with the parameter distance=4 so that the peaks would be sufficiently spaced out. The function found four time periods with peaks in the amount of minsinformation tweets:</p>
           <br/>
           <p><span style={{color: "#4db5ff"}}>2017 Quarter 1</span>: 27 tweets</p>
           <p><span style={{color: "#4db5ff"}}>2018 Quarter 2</span>: 10 tweets</p>
           <p><span style={{color: "#4db5ff"}}>2019 Quarter 4</span>: 11 tweets</p>
           <p><span style={{color: "#4db5ff"}}>2022 Quarter 1</span>: 6 tweets</p>
           <br />
-          <p>These time periods are critical and they were found to be correlated to key events relating to Leila De Lima which would be discussed at the next section.</p>
+          <p>The peaks found by the find_peaks function is consistent with the dataset since it represents the spikes in misinformation tweets. Furthermore, these time periods are critical and they were found to be correlated to key events relating to Leila De Lima which would be discussed at the next section.</p>
           <div className="portfolio__item-cta">
             <a href={GRAPH2} className="btn" target="_blank">Full Screen</a>
             <a href={GRAPH2} download className="btn btn-primary">Download</a>
