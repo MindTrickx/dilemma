@@ -22,17 +22,20 @@ const data = [
   {
     avatar: WILSON,
     name: 'Wilson Adrian De Torres',
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing"
+    review: "Hello, I'm a passionate computer science student eager to delve into the exciting world of technology and innovation. From a young age, I've been captivated by the endless possibilities that coding and problem-solving can offer.",
+    email: "wddetorres@up.edu.ph"
   },
   {
     avatar: WENDELLE,
     name: 'Charles Wendelle Ortiz',
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing"
+    review: "As a computer science student, I thrive on the intellectual challenges that arise within the realm of computing. For me, programming is not just a means to an end; it's a medium through which I express my creativity and bring innovative ideas to life.",
+    email: "cdortiz2@up.edu.ph"
   },
   {
     avatar: PETTER,
     name: 'Petter Sapalo',
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing"
+    review: "I'm a computer science enthusiast on a mission to unravel the mysteries of the digital universe. What started as a hobby quickly turned into a lifelong passion, as I discovered the immense potential of technology to transform lives.",
+    email: "pbsapalo@up.edu.ph"
   },
 ]
 
@@ -51,7 +54,7 @@ const Team = () => {
       >
 
         {
-          data.map(({avatar, name, review}, index) => {
+          data.map(({avatar, name, review, email}, index) => {
             return(
               <SwiperSlide key={index} className="testimonial">
                 <div className="client__avatar">
@@ -59,6 +62,8 @@ const Team = () => {
                 </div>
                 <h5 className="client__name">{name}</h5>
                 <small className='client__review'>{review}</small>
+                <br />
+                <small className='client__review'>email: {email}</small>
               </SwiperSlide>
             )
           })

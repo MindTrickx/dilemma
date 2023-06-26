@@ -16,8 +16,9 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Twitter</h4>
-                <small className="test-light">We've scrapped tweets from Twitter using keywords</small>
+                <small className="test-light">We've scrapped <span style={{color: "#4db5ff"}}>153</span> minsinformation tweets from Twitter using keywords</small>
               </div>
+              
             </article>
           
           </div>

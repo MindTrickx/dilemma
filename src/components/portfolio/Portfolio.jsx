@@ -21,7 +21,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'Hypothesis',
-    content: "There is a significant increase in misinformation/disinformation tweet regarding the illegal drugs accusations on Leila De Lima during the war on drugs season.",
+    content: "The PH drug war fatalities is significantly associated with the frequency of misinformation tweets regarding the accusation of illegal drugs to Leila De Lima.",
     github: 'https://github.com',
     demo: 'https://dibble.com'
   },
@@ -30,7 +30,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'Null Hypothesis',
-    content: "There is no correlation between the increased misinformation about Leila De Lima's connection on drug lords and the war on drugs.",
+    content: "There is no correlation between the amound of PH drug war fatalities and the frequency of misinformation tweets regarding the accusation of illegal drugs to Leila De Lima.",
     github: 'https://github.com',
     demo: 'https://dibble.com'
   },

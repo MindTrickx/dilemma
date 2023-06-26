@@ -46,42 +46,7 @@ const Services = () => {
           </ul>
         </article>
 
-        <article className="service">
-          <div className="service__head">
-            <h3>Implication</h3>
-          </div>
-
-          <ul className="service__list">
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            </li>
-          </ul>
-        </article>
+        
 
         <article className="service">
           <div className="service__head">
@@ -97,6 +62,28 @@ const Services = () => {
               <BsCheck className="service__list-icon" />
               <p>Furthermore, our findings indicate that factors beyond the number of fatalities may contribute to the sudden increase in the frequency of spreading misinformation, highlighting the need for further investigation into these events.</p>
             </li>
+          </ul>
+        </article>
+
+        <article className="service">
+          <div className="service__head">
+            <h3>Implication</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BsCheck className="service__list-icon" />
+              <p>If the amount of fatalities is not the main contributing factor to the amount of disinformation, then there must be something else which contributed to the amount of disinformation</p>
+            </li>
+            <li>
+              <BsCheck className="service__list-icon" />
+              <p>Based on the time-series analysis, one possible contributing factor would be the amount of media coverage since a large media attention could spark the rise of misinformation tweets</p>
+            </li>
+            <li>
+              <BsCheck className="service__list-icon" />
+              <p>Hence, this calls for more research to be done for this case.</p>
+            </li>
+          
           </ul>
         </article>
       </div>
